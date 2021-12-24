@@ -1,5 +1,13 @@
 {
     "video": false,
     "responseTimeout": 1000,
-    "retries": 2
+    "retries": 2,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportdir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+    }
 }
