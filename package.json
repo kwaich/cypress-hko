@@ -1,0 +1,25 @@
+{
+  "name": "cypress-hko",
+  "version": "1.0.0",
+  "description": "cypress api testing for HKO weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run --spec ** / *. spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwaich/cypress-hko.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwaich/cypress-hko/issues"
+  },
+  "homepage": "https://github.com/kwaich/cypress-hko#readme",
+  "devDependencies": {
+    "cypress": "^9.2.0"
+  }
+}
