@@ -1,3 +1,5 @@
 {
-    "video": false
+    "video": false,
+    "responseTimeout": 1000,
+    "retries": 2
 }
